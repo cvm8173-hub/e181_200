@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/nutan-maharashtra-institute-of-engineering-and-technology-talegaon-dabhade-pune-34610",
-  "https://www.shiksha.com/college/narsimha-reddy-engineering-college-kompalli-hyderabad-61347",
-  "https://www.shiksha.com/college/chhatrapati-shivaji-maharaj-institute-of-technology-raigad-58883",
-  "https://www.shiksha.com/college/iimt-group-of-colleges-greater-noida-3248",
-  "https://www.shiksha.com/university/jecrc-university-jaipur-42903",
-  "https://www.shiksha.com/college/shivajirao-kadam-institute-of-technology-management-indore-42705",
-  "https://www.shiksha.com/college/guru-nanak-institute-of-technology-gnit-sodepur-kolkata-34192",
-  "https://www.shiksha.com/university/avantika-university-ujjain-49129",
-  "https://www.shiksha.com/college/new-prince-shri-bhavani-college-of-engineering-and-technology-velachery-chennai-46788",
-  "https://www.shiksha.com/college/iiit-pune-indian-institute-of-information-technology-kondhwa-53859",
-  "https://www.shiksha.com/university/dr-c-v-raman-university-bilaspur-31270",
-  "https://www.shiksha.com/college/nehru-institute-of-engineering-and-technology-coimbatore-24916",
-  "https://www.shiksha.com/college/geethanjali-college-of-engineering-and-technology-ranga-reddy-42526",
-  "https://www.shiksha.com/college/shriram-institute-of-technology-srit-meerut-49531",
-  "https://www.shiksha.com/college/bonam-venkata-chalamayya-institute-of-technology-and-science-east-godavari-52691",
-  "https://www.shiksha.com/college/mvit-manakula-vinayagar-institute-of-technology-pondicherry-22982",
-  "https://www.shiksha.com/college/sits-sinhgad-institute-of-technology-and-science-narhe-pune-52057",
-  "https://www.shiksha.com/college/rohini-college-of-engineering-and-technology-kanyakumari-53925",
-  "https://www.shiksha.com/college/methodist-college-of-engineering-technology-abids-hyderabad-43034",
-  "https://www.shiksha.com/college/st-mary-s-group-of-institutions-ramoji-film-city-hyderabad-42667",
+  "https://www.shiksha.com/college/bgs-institute-of-technology-karnataka-other-42724",
+  "https://www.shiksha.com/college/amrapali-university-haldwani-24855",
+  "https://www.shiksha.com/college/pes-institute-of-technology-and-management-pesitm-shimoga-42799",
+  "https://www.shiksha.com/college/pda-college-of-engineering-gulbarga-24711",
+  "https://www.shiksha.com/college/ssbt-s-college-of-engineering-and-technology-jalgaon-21148",
+  "https://www.shiksha.com/college/aligarh-college-of-engineering-and-technology-24927",
+  "https://www.shiksha.com/university/srinath-university-jamshedpur-215899",
+  "https://www.shiksha.com/university/indira-gandhi-university-rewari-64609",
+  "https://www.shiksha.com/college/aravali-college-of-engineering-and-management-faridabad-37140",
+  "https://www.shiksha.com/college/chitkara-college-of-applied-engineering-chitkara-university-chandigarh-52061",
+  "https://www.shiksha.com/college/holy-mary-institute-of-technology-science-hyderabad-46532",
+  "https://www.shiksha.com/college/mahaveer-institute-of-science-and-technology-hyderabad-62139",
+  "https://www.shiksha.com/university/dr-d-y-patil-vidyapeeth-pune-52115",
+  "https://www.shiksha.com/university/ybn-university-ranchi-64539",
+  "https://www.shiksha.com/college/psg-institute-of-advanced-studies-coimbatore-36185",
+  "https://www.shiksha.com/college/government-engineering-college-rajkot-52600",
+  "https://www.shiksha.com/university/professor-jayashankar-telangana-state-agricultural-university-hyderabad-63737",
+  "https://www.shiksha.com/college/adhiyamaan-college-of-engineering-hosur-28120",
+  "https://www.shiksha.com/college/marathwada-mitramandal-s-institute-of-technology-lohegaon-pune-43206",
+  "https://www.shiksha.com/university/hptu-himachal-pradesh-technical-university-hamirpur-54625",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =181
+    c_count =601
 
     try:
         for base_url in BASE_URL:
