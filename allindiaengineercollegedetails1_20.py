@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/pt-l-r-college-of-technology-technical-campus-plrct-faridabad-36899",
-  "https://www.shiksha.com/college/siem-surendra-institute-of-engineering-management-siliguri-47590",
-  "https://www.shiksha.com/college/technological-institute-of-textile-and-sciences-haryana-other-52779",
-  "https://www.shiksha.com/college/college-of-engineering-trikaripur-kasargode-60676",
-  "https://www.shiksha.com/college/d-a-v-institute-of-engineering-and-technology-medininagar-daltonganj-66573",
-  "https://www.shiksha.com/college/ldc-institute-of-technical-studies-allahabad-23674",
-  "https://www.shiksha.com/college/dr-k-v-subba-reddy-institute-of-technology-kvsrit-kurnool-43355",
-  "https://www.shiksha.com/college/bansal-institute-of-research-technology-and-science-bhopal-59683",
-  "https://www.shiksha.com/college/ips-group-of-colleges-gwalior-1761",
-  "https://www.shiksha.com/college/balasore-college-of-engineering-and-technology-orissa-other-4518",
-  "https://www.shiksha.com/college/dnyanshree-institute-of-engineering-and-technology-satara-35318",
-  "https://www.shiksha.com/university/opjs-university-rajasthan-other-42860",
-  "https://www.shiksha.com/college/gregorian-institute-of-technology-kottayam-147031",
-  "https://www.shiksha.com/college/university-college-of-engineering-villupuram-anna-university-54669",
-  "https://www.shiksha.com/university/rayat-bahra-professional-university-rbpu-hoshiarpur-47380",
-  "https://www.shiksha.com/college/government-college-of-engineering-vaishali-58907",
-  "https://www.shiksha.com/university/shreemati-nathibai-damodar-thackersey-women-s-university-churchgate-mumbai-53385",
-  "https://www.shiksha.com/college/devineni-venkata-ramana-and-dr-hima-sekhar-mic-college-of-technology-krishna-25384",
-  "https://www.shiksha.com/college/atma-malik-institute-of-technology-and-research-thane-209019",
-  "https://www.shiksha.com/university/st-peter-s-institute-of-higher-education-and-research-chennai-24046",
+  "https://www.shiksha.com/college/fatima-michael-college-of-engineering-and-technology-madurai-61779",
+  "https://www.shiksha.com/college/gonna-institute-of-information-technology-and-sciences-visakhapatnam-60648",
+  "https://www.shiksha.com/college/vikas-group-of-institutions-vijayawada-60927",
+  "https://www.shiksha.com/college/mandukarrao-pandav-college-of-engineering-bhandara-nagpur-63379",
+  "https://www.shiksha.com/college/corporate-institute-of-science-and-technology-bhopal-59183",
+  "https://www.shiksha.com/college/indraprastha-institute-of-technology-lucknow-59867",
+  "https://www.shiksha.com/college/government-engineering-college-bhojpur-patna-146421",
+  "https://www.shiksha.com/college/punjab-institute-of-technology-rajpura-maharaja-ranjit-singh-punjab-technical-university-152795",
+  "https://www.shiksha.com/college/aryans-group-of-colleges-rajpura-3123",
+  "https://www.shiksha.com/college/kitm-kurukshetra-institute-of-technology-and-management-33163",
+  "https://www.shiksha.com/college/chhotubhai-gopalbhai-patel-institute-of-technology-surat-58875",
+  "https://www.shiksha.com/college/svs-college-of-engineering-svsce-coimbatore-48371",
+  "https://www.shiksha.com/college/government-engineering-college-palanpur-60189",
+  "https://www.shiksha.com/college/i-k-gujral-punjab-technical-university-amritsar-campus-59301",
+  "https://www.shiksha.com/college/krantiveer-vasantrao-narayanrao-naik-institute-of-engineering-education-and-research-nashik-60787",
+  "https://www.shiksha.com/college/m-p-nachimuthu-m-jaganathan-engineering-college-mpnmj-erode-23780",
+  "https://www.shiksha.com/college/pr-patil-college-of-engineering-and-technology-prpcet-amravati-36205",
+  "https://www.shiksha.com/university/mit-university-meghalaya-shillong-36571",
+  "https://www.shiksha.com/college/hjd-institute-of-technical-education-and-research-kutch-district-59191",
+  "https://www.shiksha.com/college/rishi-m-s-institute-of-engineering-and-technology-for-women-kukatpally-hyderabad-61323",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1101
+    c_count =1481
 
     try:
         for base_url in BASE_URL:
