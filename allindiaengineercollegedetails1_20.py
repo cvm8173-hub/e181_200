@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/fatima-michael-college-of-engineering-and-technology-madurai-61779",
-  "https://www.shiksha.com/college/gonna-institute-of-information-technology-and-sciences-visakhapatnam-60648",
-  "https://www.shiksha.com/college/vikas-group-of-institutions-vijayawada-60927",
-  "https://www.shiksha.com/college/mandukarrao-pandav-college-of-engineering-bhandara-nagpur-63379",
-  "https://www.shiksha.com/college/corporate-institute-of-science-and-technology-bhopal-59183",
-  "https://www.shiksha.com/college/indraprastha-institute-of-technology-lucknow-59867",
-  "https://www.shiksha.com/college/government-engineering-college-bhojpur-patna-146421",
-  "https://www.shiksha.com/college/punjab-institute-of-technology-rajpura-maharaja-ranjit-singh-punjab-technical-university-152795",
-  "https://www.shiksha.com/college/aryans-group-of-colleges-rajpura-3123",
-  "https://www.shiksha.com/college/kitm-kurukshetra-institute-of-technology-and-management-33163",
-  "https://www.shiksha.com/college/chhotubhai-gopalbhai-patel-institute-of-technology-surat-58875",
-  "https://www.shiksha.com/college/svs-college-of-engineering-svsce-coimbatore-48371",
-  "https://www.shiksha.com/college/government-engineering-college-palanpur-60189",
-  "https://www.shiksha.com/college/i-k-gujral-punjab-technical-university-amritsar-campus-59301",
-  "https://www.shiksha.com/college/krantiveer-vasantrao-narayanrao-naik-institute-of-engineering-education-and-research-nashik-60787",
-  "https://www.shiksha.com/college/m-p-nachimuthu-m-jaganathan-engineering-college-mpnmj-erode-23780",
-  "https://www.shiksha.com/college/pr-patil-college-of-engineering-and-technology-prpcet-amravati-36205",
-  "https://www.shiksha.com/university/mit-university-meghalaya-shillong-36571",
-  "https://www.shiksha.com/college/hjd-institute-of-technical-education-and-research-kutch-district-59191",
-  "https://www.shiksha.com/college/rishi-m-s-institute-of-engineering-and-technology-for-women-kukatpally-hyderabad-61323",
+  "https://www.shiksha.com/college/baselios-thomas-i-catholicose-college-of-engineering-and-technology-btc-kerala-other-45266",
+  "https://www.shiksha.com/college/government-engineering-college-bellary-ballari-61207",
+  "https://www.shiksha.com/college/kakatiya-institute-of-technology-and-science-for-women-nizamabad-63717",
+  "https://www.shiksha.com/college/jayalakshmi-institute-of-technology-jit-dharmapuri-tamil-nadu-other-42748",
+  "https://www.shiksha.com/college/vivekanandha-educational-institutions-for-women-namakkal-57431",
+  "https://www.shiksha.com/college/basav-engineering-school-of-technology-bijapur-61213",
+  "https://www.shiksha.com/college/shriram-institute-of-engineering-and-technology-solapur-100237",
+  "https://www.shiksha.com/college/maharana-pratap-institute-of-technology-and-management-mahendragarh-146627",
+  "https://www.shiksha.com/college/national-college-of-engineering-nce-tirunelveli-20720",
+  "https://www.shiksha.com/college/college-of-engineering-ahmednagar-190099",
+  "https://www.shiksha.com/college/p-g-college-of-engineering-and-technology-nandurbar-maharashtra-other-213385",
+  "https://www.shiksha.com/college/bal-krishna-institute-of-technology-kota-66523",
+  "https://www.shiksha.com/college/mother-s-institute-of-technology-patna-179965",
+  "https://www.shiksha.com/college/iitm-group-of-institutions-sonipat-powered-by-sunstone-sonepat-239412",
+  "https://www.shiksha.com/college/sri-vidya-vinayaka-institute-of-technology-seshadri-road-bangalore-46957",
+  "https://www.shiksha.com/college/renganayagi-varatharaj-college-of-engineering-virudhunagar-53309",
+  "https://www.shiksha.com/college/ssld-varshney-engineering-college-aligarh-59433",
+  "https://www.shiksha.com/college/brindavan-institute-of-technology-and-science-kurnool-61151",
+  "https://www.shiksha.com/college/behara-polytechnic-college-visakhapatnam-97609",
+  "https://www.shiksha.com/college/shatabdi-institute-of-engineering-and-research-nashik-147837",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1481
+    c_count =1901
 
     try:
         for base_url in BASE_URL:
