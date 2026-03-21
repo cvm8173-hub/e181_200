@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/baselios-thomas-i-catholicose-college-of-engineering-and-technology-btc-kerala-other-45266",
-  "https://www.shiksha.com/college/government-engineering-college-bellary-ballari-61207",
-  "https://www.shiksha.com/college/kakatiya-institute-of-technology-and-science-for-women-nizamabad-63717",
-  "https://www.shiksha.com/college/jayalakshmi-institute-of-technology-jit-dharmapuri-tamil-nadu-other-42748",
-  "https://www.shiksha.com/college/vivekanandha-educational-institutions-for-women-namakkal-57431",
-  "https://www.shiksha.com/college/basav-engineering-school-of-technology-bijapur-61213",
-  "https://www.shiksha.com/college/shriram-institute-of-engineering-and-technology-solapur-100237",
-  "https://www.shiksha.com/college/maharana-pratap-institute-of-technology-and-management-mahendragarh-146627",
-  "https://www.shiksha.com/college/national-college-of-engineering-nce-tirunelveli-20720",
-  "https://www.shiksha.com/college/college-of-engineering-ahmednagar-190099",
-  "https://www.shiksha.com/college/p-g-college-of-engineering-and-technology-nandurbar-maharashtra-other-213385",
-  "https://www.shiksha.com/college/bal-krishna-institute-of-technology-kota-66523",
-  "https://www.shiksha.com/college/mother-s-institute-of-technology-patna-179965",
-  "https://www.shiksha.com/college/iitm-group-of-institutions-sonipat-powered-by-sunstone-sonepat-239412",
-  "https://www.shiksha.com/college/sri-vidya-vinayaka-institute-of-technology-seshadri-road-bangalore-46957",
-  "https://www.shiksha.com/college/renganayagi-varatharaj-college-of-engineering-virudhunagar-53309",
-  "https://www.shiksha.com/college/ssld-varshney-engineering-college-aligarh-59433",
-  "https://www.shiksha.com/college/brindavan-institute-of-technology-and-science-kurnool-61151",
-  "https://www.shiksha.com/college/behara-polytechnic-college-visakhapatnam-97609",
-  "https://www.shiksha.com/college/shatabdi-institute-of-engineering-and-research-nashik-147837",
+  "https://www.shiksha.com/college/paras-hospitals-panchkula-240852",
+  "https://www.shiksha.com/college/gtc-global-technical-campus-jaipur-42378",
+  "https://www.shiksha.com/college/jayamukhi-institute-of-pharmaceutical-sciences-warangal-87761",
+  "https://www.shiksha.com/college/ssjp-rp-college-of-pharmacy-maharashtra-other-88447",
+  "https://www.shiksha.com/college/savitribai-college-of-pharmacy-bamani-nanded-88963",
+  "https://www.shiksha.com/college/sachidanand-institute-of-diploma-in-pharmacy-nagpur-89233",
+  "https://www.shiksha.com/college/sgl-college-of-nursing-jalandhar-91047",
+  "https://www.shiksha.com/college/rameshwari-mauli-prathishtan-of-bhalchnadra-institute-of-pharmacy-pune-97633",
+  "https://www.shiksha.com/college/institute-of-mechanical-engineering-lisana-rewari-98527",
+  "https://www.shiksha.com/college/shri-b-m-shah-college-modasa-123557",
+  "https://www.shiksha.com/college/unity-degree-college-rampur-127985",
+  "https://www.shiksha.com/college/arunodaya-college-bangalore-137373",
+  "https://www.shiksha.com/college/icri-dit-university-dehradun-145879",
+  "https://www.shiksha.com/college/dr-apj-abdul-kalam-college-of-pharmacy-hoshangabad-208047",
+  "https://www.shiksha.com/college/manikyalal-verma-shramjivi-college-udaipur-208213",
+  "https://www.shiksha.com/college/institute-of-pharmaceutical-science-research-for-girls-bhigwan-daund-maharashtra-other-210391",
+  "https://www.shiksha.com/college/drona-foundation-kalyan-polytechnic-b-voc-college-jamnagar-212055",
+  "https://www.shiksha.com/college/r-n-kapoor-memorial-ayurvedic-medical-college-hospital-indore-236608",
+  "https://www.shiksha.com/college/shakuntala-memorial-educational-institute-uttar-pradesh-other-237134",
+  "https://www.shiksha.com/college/rama-devi-pharmacy-and-medical-institute-bardhaman-237332",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1901
+    c_count =3621
 
     try:
         for base_url in BASE_URL:
