@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/jai-shree-college-of-pharmacy-meerut-181947",
-  "https://www.shiksha.com/college/shiv-narayan-college-of-pharmacy-meerut-181953",
-  "https://www.shiksha.com/college/baduli-pharmacy-college-saharanpur-182009",
-  "https://www.shiksha.com/college/r-s-v-skin-and-laser-centre-chennai-193905",
-  "https://www.shiksha.com/college/aringar-anna-institute-of-diploma-in-nursing-tiruvannamalai-193957",
-  "https://www.shiksha.com/college/smt-shantagauri-rasiklal-shah-rangwala-college-of-physiotherapy-kadi-197107",
-  "https://www.shiksha.com/college/bajaj-school-of-nursing-bidar-199317",
-  "https://www.shiksha.com/college/college-of-nursing-and-pharmacy-saharanpur-199869",
-  "https://www.shiksha.com/college/microview-institute-of-medical-laboratory-technology-orissa-other-200523",
-  "https://www.shiksha.com/college/aarohan-college-of-pharmacy-ranchi-207573",
-  "https://www.shiksha.com/college/dhanvantari-college-of-pharmacy-ranchi-207593",
-  "https://www.shiksha.com/college/aristotle-college-of-pharmacy-kolar-207673",
-  "https://www.shiksha.com/college/chalukya-education-society-r-college-of-pharmacy-bidar-207709",
-  "https://www.shiksha.com/college/exalt-group-of-institutions-patna-236326",
-  "https://www.shiksha.com/college/ghanshyam-mehta-college-of-medical-and-science-hazaribagh-236514",
-  "https://www.shiksha.com/college/shri-l-d-aher-college-of-pharmacy-maharashtra-other-236782",
-  "https://www.shiksha.com/college/hrudananda-dani-pharmacy-college-orissa-other-236832",
-  "https://www.shiksha.com/college/muslim-pharmacy-college-budaun-237068",
-  "https://www.shiksha.com/college/skv-educations-group-uttar-pradesh-other-237118",
-  "https://www.shiksha.com/college/north-bengal-elite-pharmacy-college-west-bengal-other-237318",
+  "https://www.shiksha.com/college/manjara-charitable-trust-s-ayur-maha-and-hospital-latur-189601",
+  "https://www.shiksha.com/college/post-graduate-institute-of-veterinary-and-animal-sciences-akola-190233",
+  "https://www.shiksha.com/college/global-college-of-pharmacy-sikar-193425",
+  "https://www.shiksha.com/college/arthur-asirvatham-hospital-madurai-193911",
+  "https://www.shiksha.com/college/golden-gate-college-of-pharmacy-karnataka-other-199449",
+  "https://www.shiksha.com/college/bangalore-college-of-pharmacy-199747",
+  "https://www.shiksha.com/college/shri-jay-singh-pharmacy-college-farrukhabad-199959",
+  "https://www.shiksha.com/college/columbia-college-of-pharmacy-raipur-207549",
+  "https://www.shiksha.com/college/rs-memorial-nursing-and-pharmacy-college-hazaribagh-207633",
+  "https://www.shiksha.com/college/bangi-college-of-pharmacy-bijapur-207697",
+  "https://www.shiksha.com/college/sri-sadguru-sachidanand-sainath-charitable-and-education-trust-bidar-207951",
+  "https://www.shiksha.com/college/vmvv-sanga-school-of-pharmacy-bagalkot-208013",
+  "https://www.shiksha.com/college/s-s-college-of-pharmacy-ballari-208017",
+  "https://www.shiksha.com/college/bimla-harihar-institute-jharkhand-other-236500",
+  "https://www.shiksha.com/college/maa-bharti-pharmacy-college-kushalgarh-rajasthan-other-236890",
+  "https://www.shiksha.com/college/pragati-medical-college-of-pharmacy-kota-236918",
+  "https://www.shiksha.com/college/sanskar-college-sikar-236928",
+  "https://www.shiksha.com/college/om-budheshwarnath-r-s-v-s-college-of-pharmacy-uttar-pradesh-other-237076",
+  "https://www.shiksha.com/college/aim-institute-of-higher-education-district-24-parganas-237228",
+  "https://www.shiksha.com/college/bishnupur-public-college-of-pharmacy-west-bengal-other-237250",
 ]
 
 
@@ -9246,7 +9246,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =3981
+    c_count =4341
 
     try:
         for base_url in BASE_URL:
